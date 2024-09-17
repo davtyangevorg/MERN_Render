@@ -1,0 +1,14 @@
+{
+  "name": "mern_render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:client && npm run build:server",
+    "start": "cd server && npm start",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}
